@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstring>
 #include "classes.h"
-
+#include <stdlib.h>
 
 using namespace std;
 
@@ -9,6 +9,7 @@ using namespace std;
   
 int main(int argc, char **argv)
 {
+int x,y,v;
 //-------------------Syntax tests-------------------
  
 
@@ -27,16 +28,18 @@ int main(int argc, char **argv)
          }
     }
 //----------------------------------------------------------
-    
-    
+     
 
-    
+x = atoi(argv[1]);
+y = atoi(argv[2]);
+v = atoi(argv[3]);
 
-	Cmacierz* kwadratowa = new Cmacierz(4,4);
+	Cmacierz* kwadratowa = new Cmacierz(x,y);
 
-	kwadratowa->Cmacierz_Reseter(3);
-	kwadratowa->Cmacierz_Setter(0,0,4);
-	kwadratowa->Cmacierz_Setter(2,1,8);
+
+	kwadratowa->Cmacierz_Reseter(v);
+//	kwadratowa->Cmacierz_Setter(0,0,4);
+//	kwadratowa->Cmacierz_Setter(2,1,8);
 
 	kwadratowa->Cmacierz_ShowAll();
 
