@@ -6,14 +6,17 @@
 using namespace std;
 
 
+
 int main(int argc, char **argv)
 {
 //-------------------Syntax tests-------------------
-//    if(argc!=2 || !strcmp((char*)argv[1],"-h") || !strcmp((char*)argv[1],"-help"))
-//    {     
-//        ShowHelp();
-//        return 0;
-//    }
+ 
+
+    if(argc==1 || strcmp((char*)argv[1],"-h") || !strcmp((char*)argv[1],"-help")   )
+    {     
+        ShowHelp();
+        return 0;
+    }
 /*        
     if( !IsItNumber((char*)argv[1]))
     {
@@ -22,6 +25,9 @@ int main(int argc, char **argv)
     }
 */
 //----------------------------------------------------------
+
+    
+
 	Cmacierz* kwadratowa = new Cmacierz(4,4);
 
 	kwadratowa->Cmacierz_Reseter(3);

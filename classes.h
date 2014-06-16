@@ -1,6 +1,9 @@
 #ifndef classess_h
 #define classess_h
 
+
+int ShowHelp();
+
  
 class Cmacierz
 {

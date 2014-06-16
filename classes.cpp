@@ -3,6 +3,25 @@
 
 using namespace std;
 
+//functions definitions
+
+int ShowHelp()
+{
+     cout << "\nThis tool allows you to perform simple operations on matrixes\n";
+     cout << "\n\nPlease use this mattern: matrix <size x> <size y> <default value>\n\n";
+ 
+ 
+     return 0;
+}
+
+
+
+//-------------------------
+
+
+
+//class definitions
+
 Cmacierz::Cmacierz(unsigned r_w = 0, unsigned r_k=0) : rozmiar_w(r_w),rozmiar_k(r_k)
     {
         macierz = new unsigned* [r_w];
@@ -52,3 +71,6 @@ unsigned Cmacierz::Cmacierz_ShowAll() const
            } 
            cout << endl << endl;
     }   
+
+
+//-----------------------
