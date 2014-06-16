@@ -3,7 +3,7 @@
 
 
 int ShowHelp();
-
+int IsItNumber(char *);
  
 class Cmacierz
 {
