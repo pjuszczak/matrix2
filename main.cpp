@@ -27,7 +27,7 @@ int x,y,v;
          }
     }
 //----------------------------------------------------------
-//komutacja     
+//komutacja  szmato   
 
     x = atoi(argv[1]);
     y = atoi(argv[2]);
