@@ -27,8 +27,9 @@ int x,y,v;
          }
     }
 //----------------------------------------------------------
-//bleble     
-//bleble
+//komutacja  szmato   
+
+>>>>>>> parent of 103af9b... po revercie
     x = atoi(argv[1]);
     y = atoi(argv[2]);
     v = atoi(argv[3]);
