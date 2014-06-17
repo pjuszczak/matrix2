@@ -27,7 +27,7 @@ int x,y,v;
          }
     }
 //----------------------------------------------------------
-//komutacja  szmato   
+//bleble     
 
     x = atoi(argv[1]);
     y = atoi(argv[2]);
