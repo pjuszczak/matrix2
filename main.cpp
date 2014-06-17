@@ -12,7 +12,6 @@ int main(int argc, char **argv)
 int x,y,v;
 //-------------------Syntax tests-------------------
  
-
     if(argc!=4 || !strcmp((char*)argv[1],"-h") || !strcmp((char*)argv[1],"-help")   )
     {     
         ShowHelp();
