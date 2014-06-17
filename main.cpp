@@ -27,11 +27,8 @@ int x,y,v;
          }
     }
 //----------------------------------------------------------
-<<<<<<< HEAD
+
 //komutacja  szmato   
-=======
-//bleble     
->>>>>>> parent of 7ee4376... programista plakal jak commitowal
 
     x = atoi(argv[1]);
     y = atoi(argv[2]);
