@@ -98,13 +98,13 @@ unsigned* Cmacierz::Cmacierz_JakiRozmiar() const
 
 Cmacierz Cmacierz_Dodaj(Cmacierz* Macierz1, Cmacierz* Macierz2)
 {
-
+//to ma dodawac
 }
 
 
 Cmacierz Cmacierz_Odejmij(Cmacierz* Macierz1, Cmacierz* Macierz2)
 {
-
+// to ma odejmowac
 }
 
 //-----------------------
