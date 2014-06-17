@@ -47,7 +47,7 @@ int x,y,v;
 	Macierz_1->Cmacierz_Reseter(v);
 //	kwadratowa->Cmacierz_Setter(0,0,4);
 //	kwadratowa->Cmacierz_Setter(2,1,8);
-
+//
 	Macierz_1->Cmacierz_ShowAll();
 
     delete Macierz_1;
