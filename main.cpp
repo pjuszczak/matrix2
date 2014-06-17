@@ -35,11 +35,13 @@ y = atoi(argv[2]);
 v = atoi(argv[3]);
 
 	Cmacierz* kwadratowa = new Cmacierz(x,y);
-
-
+     
+ 
 	kwadratowa->Cmacierz_Reseter(v);
 //	kwadratowa->Cmacierz_Setter(0,0,4);
 //	kwadratowa->Cmacierz_Setter(2,1,8);
+
+    cout << "\nWartosc pola (2 i 3) to:" << kwadratowa->Cmacierz_Getter(1,2);
 
 	kwadratowa->Cmacierz_ShowAll();
 

@@ -27,6 +27,9 @@ class Cmacierz
     unsigned Cmacierz_Reseter(unsigned);
     unsigned Cmacierz_Getter(unsigned, unsigned) const; 
     unsigned Cmacierz_ShowAll() const;
+
+
+
 };
 
 #endif
