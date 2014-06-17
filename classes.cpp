@@ -3,6 +3,8 @@
 
 using namespace std;
 
+unsigned* rozmiar;
+
 //functions definitions
 
 int ShowHelp()
@@ -49,6 +51,7 @@ Cmacierz::~Cmacierz()
               delete[] macierz[i];
             }
 	    delete[] macierz;
+        delete rozmiar;
 }
 unsigned Cmacierz::Cmacierz_Setter(unsigned wiersz, unsigned kolumna, unsigned wartosc)
 {
@@ -82,5 +85,26 @@ unsigned Cmacierz::Cmacierz_ShowAll() const
            cout << endl << endl;
     }   
 
+unsigned* Cmacierz::Cmacierz_JakiRozmiar() const
+{
+    unsigned* rozmiar = new unsigned[2];
+    rozmiar[0] = rozmiar_w;
+    rozmiar[1] = rozmiar_k;
+
+    return rozmiar;
+}
+
+        
+
+Cmacierz Cmacierz_Dodaj(Cmacierz* Macierz1, Cmacierz* Macierz2)
+{
+
+}
+
+
+Cmacierz Cmacierz_Odejmij(Cmacierz* Macierz1, Cmacierz* Macierz2)
+{
+
+}
 
 //-----------------------

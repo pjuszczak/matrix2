@@ -30,21 +30,31 @@ int x,y,v;
 //----------------------------------------------------------
      
 
-x = atoi(argv[1]);
-y = atoi(argv[2]);
-v = atoi(argv[3]);
+    x = atoi(argv[1]);
+    y = atoi(argv[2]);
+    v = atoi(argv[3]);
 
-	Cmacierz* kwadratowa = new Cmacierz(x,y);
+	Cmacierz* Macierz_1 = new Cmacierz(x,y);
+    Cmacierz* Macierz_2 = new Cmacierz(x,y);
+    Cmacierz* Macierz_3 = new Cmacierz(x,y);
+    
+  
+    unsigned* r_wymiary = Macierz_1->Cmacierz_JakiRozmiar();
+     
 
+    cout << "\n Wymiary: X:" << r_wymiary[0]  <<  " Y: " << r_wymiary[1];
 
-	kwadratowa->Cmacierz_Reseter(v);
+	Macierz_1->Cmacierz_Reseter(v);
 //	kwadratowa->Cmacierz_Setter(0,0,4);
 //	kwadratowa->Cmacierz_Setter(2,1,8);
 
-	kwadratowa->Cmacierz_ShowAll();
+	Macierz_1->Cmacierz_ShowAll();
 
-        delete kwadratowa;
+    delete Macierz_1;
+    delete Macierz_2;
+    delete Macierz_3;
 
+   
 return 0;
 
 }
