@@ -42,6 +42,10 @@ v = atoi(argv[3]);
 //	kwadratowa->Cmacierz_Setter(2,1,8);
 
     cout << "\nWartosc pola (2 i 3) to:" << kwadratowa->Cmacierz_Getter(1,2);
+    
+    //bleble
+
+
 
 	kwadratowa->Cmacierz_ShowAll();
 
