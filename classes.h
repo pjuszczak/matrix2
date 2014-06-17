@@ -21,6 +21,7 @@ class Cmacierz
     
 
 //metody dostępowe:
+
         unsigned Cmacierz_Setter(unsigned, unsigned, unsigned);
         unsigned Cmacierz_Reseter(unsigned);
         unsigned Cmacierz_Getter(unsigned, unsigned) const; 

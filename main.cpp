@@ -50,10 +50,26 @@ int x,y,v;
 
 	Macierz_1->Cmacierz_ShowAll();
 
+
+	Cmacierz* kwadratowa = new Cmacierz(x,y);
+     
+ 
+	kwadratowa->Cmacierz_Reseter(v);
+//	kwadratowa->Cmacierz_Setter(0,0,4);
+//	kwadratowa->Cmacierz_Setter(2,1,8);
+
+    cout << "\nWartosc pola (2 i 3) to:" << kwadratowa->Cmacierz_Getter(1,2);
+    
+    //bleble
+
+
+
+	kwadratowa->Cmacierz_ShowAll();
+
     delete Macierz_1;
     delete Macierz_2;
     delete Macierz_3;
-
+    delete kwadratowa;
    
 return 0;
 
